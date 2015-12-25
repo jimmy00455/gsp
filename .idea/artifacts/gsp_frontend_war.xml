@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gsp-frontend:war">
+    <output-path>$PROJECT_DIR$/gsp-frontend/target</output-path>
+    <root id="archive" name="gsp.war">
+      <element id="artifact" artifact-name="gsp-frontend:war exploded" />
+    </root>
+  </artifact>
+</component>
