@@ -1,0 +1,2 @@
+appModule.controller("MainController", function() {
+});

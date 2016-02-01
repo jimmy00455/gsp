@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html ng-app="gsp">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="resources/css/bootstrap.css" rel="stylesheet">
+    <link href="resources/css/bootstrap-material-design.css" rel="stylesheet">
+    <link href="resources/css/ripples.css" rel="stylesheet">
+    <link href="resources/css/nouislider.css" rel="stylesheet">
+    <link href="resources/css/nouislider.pips.css" rel="stylesheet">
+    <link href="resources/css/nouislider.tooltips.css" rel="stylesheet">
+    <link href="resources/css/gsp.css" rel="stylesheet">
+    <title>Groovy Soccer Prophet, czyli wyrocznia futbolu</title>
+</head>
+<body ng-controller="MainController">
+<ui-view></ui-view>
+
+<!--<div ng-include="'app/sampleShit.html'"></div>-->
+
+<!--external libraries-->
+<script src="resources/js/angular.js"></script>
+<script src="resources/js/angular-route.js"></script>
+<script src="resources/js/angular-route.min.js"></script>
+<script src="resources/js/angular-ui-router.js"></script>
+<script src="resources/js/angular-ui-router.min.js"></script>
+<script src="resources/js/lodash.js"></script>
+<script src="resources/js/lodash.min.js"></script>
+<script src="resources/js/jquery-2.1.4.js"></script>
+<script src="resources/js/bootstrap.min.js"></script>
+<script src="resources/js/material.js"></script>
+<script src="resources/js/nouislider.js"></script>
+<script>
+    $.material.init();
+</script>
+
+<!--app scripts-->
+<script src="app/modules.js"></script>
+<script src="app/app.js"></script>
+<script src="app/landingPage/mainController.js"></script>
+<script src="app/landingPage/gspWrapper.js"></script>
+<script src="app/landingPage/home.js"></script>
+
+</body>
+</html>
